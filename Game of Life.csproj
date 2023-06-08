@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Game_of_Life</RootNamespace>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\green.png" />
+    <None Remove="Assets\orange.png" />
+    <None Remove="Assets\red.png" />
+    <None Remove="Assets\white.png" />
+  </ItemGroup>
+
+</Project>
