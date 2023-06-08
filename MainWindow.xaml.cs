@@ -24,5 +24,6 @@ namespace Game_of_Life
         {
             InitializeComponent();
         }
+
     }
 }

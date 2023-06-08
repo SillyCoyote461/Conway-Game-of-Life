@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:Game_of_Life"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="BgColor">#cfcfcf</SolidColorBrush>
+        <SolidColorBrush x:Key="GridColor">#8a8a8a</SolidColorBrush>
     </Application.Resources>
 </Application>
